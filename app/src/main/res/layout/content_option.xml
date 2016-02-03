@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.martin.pubczech.OptionActivity"
+    tools:showIn="@layout/activity_option"
+    android:orientation="vertical"
+    android:background="@drawable/shotprom"
+    android:paddingTop="@dimen/abc_action_bar_default_height_material">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/limit"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:layout_gravity="center_vertical"
+                android:textColor="@android:color/background_light"
+                android:textSize="32dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/limit_help"
+                android:inputType="number"
+                android:id="@+id/EditLimit"
+                android:textSize="32sp"
+                android:selectAllOnFocus="true"
+                android:singleLine="true" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/item1_name"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:layout_gravity="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="Beer"
+                android:id="@+id/EditItem1"
+                android:textSize="24sp"
+                android:inputType="textCapWords"
+                android:selectAllOnFocus="true"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/item2_name"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:layout_gravity="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24dp" />
+            <EditText
+                android:id="@+id/EditItem2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="Shot"
+                android:textColor="@android:color/background_light"
+                android:enabled="true"
+                android:imeOptions="actionGo"
+                android:layout_gravity="center"
+                android:textSize="24sp"
+                android:inputType="textCapWords"
+                android:selectAllOnFocus="true"
+                android:singleLine="true" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

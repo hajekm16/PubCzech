@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">PubCzech</string>
+
+    <string name="start_button">To the pub</string>
+    <string name="welcome_content">PUB\nCZECH</string>
+    <string name="title_activity_pub">PubActivity</string>
+    <string name="saved_item1A">item1A</string>
+    <string name="saved_item1P">item1P</string>
+    <string name="saved_item1N">item1N</string>
+    <string name="saved_item2A">item2A</string>
+    <string name="saved_item2P">item2P</string>
+    <string name="saved_item2N">item2N</string>
+    <string name="saved_item3A">item3A</string>
+    <string name="saved_item3P">item3P</string>
+    <string name="saved_item3N">item3N</string>
+    <string name="saved_item4A">item4A</string>
+    <string name="saved_item4P">item4P</string>
+    <string name="saved_item4N">item4N</string>
+    <string name="saved_item5A">item5A</string>
+    <string name="saved_item5P">item5P</string>
+    <string name="saved_item5N">item5N</string>
+    <string name="saved_items">items</string>
+    <string name="saved_total">total</string>
+    <string name="saved_limit">limit</string>
+    <string name="saved_first">firsttime</string>
+    <string name="beer">BEER</string>
+    <string name="shot">SHOT</string>
+    <string name="total">Total</string>
+    <string name="limit_help">200</string>
+    <string name="limit">Limit:</string>
+    <string name="itemsnumber">No. of items (max 5):</string>
+    <string name="item1_name">Item1 name:</string>
+    <string name="item2_name">Item2 name:</string>
+    <string name="item3_name">Item3 name:</string>
+    <string name="item4_name">Item4 name:</string>
+    <string name="item5_name">Item5 name:</string>
+
+    <string name="BottomB">ca-app-pub-1116140092426768/8125549733</string> <!-- Ostra reklama. -->
+    <!--string name="BottomB">ca-app-pub-3940256099942544/6300978111</string--> <!-- testovaci reklama. -->
+    <!--string name="FullAd">ca-app-pub-1116140092426768/7721276938</string--> <!-- Ostra reklama. -->
+    <string name="FullAd">ca-app-pub-3940256099942544/1033173712</string> <!-- testovaci reklama. -->
+    <string name="title_activity_option">OptionActivity</string>
+</resources>
